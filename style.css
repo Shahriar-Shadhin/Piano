@@ -13,6 +13,7 @@ body{
 
 .piano{
     display: flex;
+    width: 400px;
 }
 .key{
     height: calc(var(--width) * 4);
@@ -21,7 +22,7 @@ body{
 }
 
 .white{
-    --width: 100px;
+    --width: 80px;
     
     background-color: white;
     border: 1px solid #333;
@@ -30,7 +31,7 @@ body{
     background-color: #ccc;
 }
 .black{
-    --width: 60px;
+    --width: 40px;
     
     background-color: black;
     margin-left: calc(var(--width) / -2);
