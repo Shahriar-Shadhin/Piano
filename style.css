@@ -22,7 +22,7 @@ body{
 }
 
 .white{
-    --width: 80px;
+    --width: 60px;
     
     background-color: white;
     border: 1px solid #333;
@@ -31,7 +31,7 @@ body{
     background-color: #ccc;
 }
 .black{
-    --width: 40px;
+    --width: 30px;
     
     background-color: black;
     margin-left: calc(var(--width) / -2);
